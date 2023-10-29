@@ -1,8 +1,8 @@
-package com.home.java8.function.durga;
+package com.home.java8.utility.durga;
 
 public class Student {
-	String name;
-	int marks;
+	public String name;
+	public int marks;
 	public Student(String name, int marks) {
 		super();
 		this.name = name;

@@ -3,6 +3,7 @@ package com.home.java8.predicate.durga;
 import java.util.ArrayList;
 import java.util.function.Predicate;
 
+import com.home.java8.utility.durga.Employee;
 import com.home.java8.utility.durga.EmployeeUtility;
 
 public class PredicateTest {

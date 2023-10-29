@@ -3,6 +3,7 @@ package com.home.java8.function.durga;
 import java.util.ArrayList;
 import java.util.function.Function;
 
+import com.home.java8.utility.durga.Employee;
 import com.home.java8.utility.durga.EmployeeUtility;
 
 public class TotalMonthOfAllEmpSal {

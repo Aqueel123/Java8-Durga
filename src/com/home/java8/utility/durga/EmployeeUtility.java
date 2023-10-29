@@ -2,8 +2,6 @@ package com.home.java8.utility.durga;
 
 import java.util.ArrayList;
 
-import com.home.java8.function.durga.Employee;
-
 public class EmployeeUtility {
 
 	public static void populateName_Sal(ArrayList<Employee> al) {
@@ -14,22 +12,15 @@ public class EmployeeUtility {
 	}
 	
 	public static void populate_Name_Desig_Sal_Loc(
-			ArrayList<com.home.java8.predicate.durga.Employee> list) {
+			ArrayList<Employee> list) {
 		
-		list.add(new com.home.java8.predicate.durga.Employee
-				("Durga", "CEO", 30000, "Hyderabad"));
-		list.add(new com.home.java8.predicate.durga.Employee
-				("Sunny", "Manager", 25000, "Hyderabad"));
-		list.add(new com.home.java8.predicate.durga.Employee
-				("Malika", "Manager", 25000, "Bangalore"));
-		list.add(new com.home.java8.predicate.durga.Employee
-				("Kareena", "Lead", 20000, "Chennai"));
-		list.add(new com.home.java8.predicate.durga.Employee
-				("Aqueel", "Developer", 10000, "Mumbai"));
-		list.add(new com.home.java8.predicate.durga.Employee
-				("Anushka", "Lead", 20000, "Bangalore"));
-		list.add(new com.home.java8.predicate.durga.Employee
-				("Sowmya", "Developer", 10000, "Hyderabad"));
+		list.add(new Employee("Durga", "CEO", 30000.0, "Hyderabad"));
+		list.add(new Employee("Sunny", "Manager", 25000.0, "Hyderabad"));
+		list.add(new Employee("Malika", "Manager", 25000.0, "Bangalore"));
+		list.add(new Employee("Kareena", "Lead", 20000.0, "Chennai"));
+		list.add(new Employee("Aqueel", "Developer", 10000.0, "Mumbai"));
+		list.add(new Employee("Anushka", "Lead", 20000.0, "Bangalore"));
+		list.add(new Employee("Sowmya", "Developer", 10000.0, "Hyderabad"));
 	}
 	
 }
