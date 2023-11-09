@@ -18,8 +18,6 @@ public class MovieResultUsingConsumerChaining {
 		
 		Movie m2 = new Movie("Spider", "Hit");
 		chaningC.accept(m2);
-		
-		
 	}
 
 }
